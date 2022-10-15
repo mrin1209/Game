@@ -1,0 +1,54 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+canvas {
+	display: block;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+}
+
+.crossControl {
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+  width: 400px;
+  height: 400px;
+}
+
+.crossControl div {
+  position: absolute;
+  padding: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  font-size: 50px;
+  text-align: center;
+}
+
+.up {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.down {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.left {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
